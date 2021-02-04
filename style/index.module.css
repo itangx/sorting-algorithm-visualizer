@@ -1,0 +1,17 @@
+.bar { 
+    display: flex;
+    height: 25vh;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 10vw 0 10vw; 
+}
+
+.button {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.button > button {
+    margin: 0 5px 0 5px;
+}
