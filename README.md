@@ -1,5 +1,5 @@
 # Sorting Visualizer #
-I created this application to learn how it works and also remind me when I forgot how to use those algorithms.
+I created this application to learn how it works and also remind me when I forgot how to use it.  
 This application supports the following algorithms:
 
 | Algorithm  | Time Complexity (Worst) | Space Complexity |
