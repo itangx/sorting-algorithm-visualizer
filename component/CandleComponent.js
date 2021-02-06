@@ -7,7 +7,7 @@ const CandleComponent = ({ array, arraySize }) => {
             style={{
               margin: "0 1px",
               width: "100%",
-              backgroundColor: "#F3E5AB",
+              backgroundColor: "#32CD32",
               height: `${100 * value / arraySize}%`
             }}>
           </div>
