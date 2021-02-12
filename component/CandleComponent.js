@@ -14,5 +14,4 @@ const CandleComponent = ({ array, arraySize }) => {
         ))
     );
 }
-
 export default CandleComponent;
