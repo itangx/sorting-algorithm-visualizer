@@ -3,7 +3,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import styles from '../style/index.module.css'
 import { generateArray } from '../lib/generateArray'
-import { bubbleSort, selectionSort, insertionSort } from '../lib/sortAlgorithm'
+import { bubbleSort, selectionSort, insertionSort, quickSort, mergeSort, heapSort } from '../lib/sortAlgorithm'
 
 const arraySize = 10;
 const maxNumber = 10;
@@ -104,6 +104,10 @@ const Home = () => {
         <button disabled={disabled} onClick={() => setArray(generateArray(arraySize, maxNumber))}>Re-generate</button>
         <button disabled={disabled} onClick={() => bubbleSortAnimation(array, setArray, setDisabled)}>Bubble sort</button>
         <button disabled={disabled} onClick={() => selectionSortAnimation(array, setArray, setDisabled)}>Selection sort</button>
+        <button disabled={disabled} onClick={() => insertionSort(array)}>Insertion sort</button>
+        <button disabled={disabled} onClick={() => quickSort(array)}>Quick sort</button>
+        <button disabled={disabled} onClick={() => mergeSort(array)}>Merge sort</button>
+        <button disabled={disabled} onClick={() => heapSort(array)}>Heap sort</button>
       </div>
     </div>
   )
